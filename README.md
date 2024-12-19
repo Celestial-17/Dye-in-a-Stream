@@ -1,9 +1,10 @@
 # Dye in Stream Monitoring: Environmental Analysis Strategy
+
 ## Background
 
 The dye tracer monitoring system has controllable injection and measurement capabilities. When deployed in rivers, environmental monitoring operators can optimize measurement strategies for accuracy. Under the constraints of individual monitoring station optimization and the need for comprehensive river system modeling, given the limitations of equipment costs and sampling frequency restrictions, we can propose a new method based on the principles of advection-diffusion and photochemical decay patterns.
 
-# My Work
+## My Work
 
 In this project, we established a comprehensive mathematical model with the goal of optimizing downstream dye detection in river monitoring systems. The model incorporates the key physics of advection-diffusion transport, photochemical decay rates, measurement constraints, and environmental conditions. We developed both analytical and numerical solutions using Forward Euler methods with finite differences to realize accurate dye transport prediction and monitoring optimization.
 
@@ -24,9 +25,9 @@ Through validation against historical monitoring data, the model proved capable 
 Since the 1D model has limitations in capturing complex river geometries and flow patterns, we extended to a 2D framework incorporating depth-dependent decay. Further work could focus on 3D modeling using advanced numerical methods and including additional environmental factors. 
 
 
-# File Description
+## File Description
 
-## Core Implementation (Jupyter Notebook)
+### Core Implementation (Jupyter Notebook)
 - `Dye in a Stream.ipynb`: Main simulation and analysis notebook
 - Complete 1D and 2D model implementations
 - Model validation with USGS data
